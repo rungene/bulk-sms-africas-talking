@@ -38,7 +38,6 @@ from read_phone_numbers import read_kenyan_phone_numbers
 # Set up API credentials
 os.environ['api_key'] = 'YOUR_API_KEY'
 os.environ['username'] = 'YOUR_USERNAME'
-```
 
 # Define phone numbers and message content
 phone_numbers = read_kenyan_phone_numbers()
@@ -46,6 +45,7 @@ message = "Welcome to Topp"
 
 # Send SMS
 send_sms(phone_numbers, message)
+```
 
 # Functionality
   - Retrieves only Kenyan Phone phone numbers (from CSV).
